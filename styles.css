@@ -1,0 +1,37 @@
+.tool {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+a {
+	display: inline-block;
+	background-color: #3498db;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+img{
+	width: 75%;
+}
+#tools-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2%;
+}
+.arrow_button_bg{
+	background-color: #FEF7F7;
+	color: #EB5757;
+}
+.arrow_button_bg:hover{
+	background-color: #EB5757;
+	color: #FEF7F7;
+}
